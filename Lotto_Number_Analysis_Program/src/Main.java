@@ -98,7 +98,7 @@ public class Main {
 			analysis_number[i] = 0;
 		size = 0;
 		check_index = 0;
-		
+		 
 		try {
 			System.out.println("파일 읽어오는중 ...\n");
 			file = new FileInputStream(filename);
