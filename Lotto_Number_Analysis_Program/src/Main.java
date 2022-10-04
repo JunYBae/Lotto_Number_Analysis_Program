@@ -27,7 +27,6 @@ public class Main {
 	static String path = "C:/Users/bjy54/eclipse-workspace/Lotto_Number_Analysis_Program/";	//파일 경로 설정
 	static String filename = "excel.xlsx";	//파일명 설정
 	
-	
 	public static void analyze() {
 		System.out.println("=================== 로또 번호 분석 프로그램 입니다 ===================\n");
 		System.out.println(" version 1.1 : 다중번호 추천 프로그램                                 \n");
