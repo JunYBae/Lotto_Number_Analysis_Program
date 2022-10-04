@@ -27,13 +27,13 @@ public class Main {
 	static int size = 0;
 	static int check_index = 0;
 	
-	static String path = "C:/Users/bjy54/eclipse-workspace/Lotto_Number_Analysis_Program/";	//파일 경로 설정
+	static String path = "C:/Users/bjy54/eclipse-workspace/Lotto_Number_Analysis_Program/";	//파일 절대 경로 설정
 	static String filename = "excel.xlsx";	//파일명 설정
 	
 	public static void analyze() {
 		System.out.println("=================== 로또 번호 분석 프로그램 입니다 ===================\n");
-		System.out.println(" version 1.1 : 다중번호 추천 프로그램                                 \n");
-		System.out.println("  파일 주소  : " + path+filename + "                                  \n");	
+		System.out.println("   version 1.1   : 다중번호 추천 프로그램                                 \n");
+		System.out.println(" 파일 주소(이름) : " + filename + "                                  \n");	
 		System.out.println("======================================================================\n");
 		
 		try {		
@@ -101,7 +101,7 @@ public class Main {
 		
 		try {
 			System.out.println("파일 읽어오는중 ...\n");
-			file = new FileInputStream(path + filename);
+			file = new FileInputStream(filename);
 			workbook = new XSSFWorkbook(file);
 			f = NumberFormat.getInstance();
 			f.setGroupingUsed(false);	//지수로 안나오게 설정
