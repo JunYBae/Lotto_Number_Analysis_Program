@@ -241,6 +241,7 @@ public class Main {
 				System.out.println("\n");
 			}
 			
+			
 			System.out.println("\n---------------------------------------------------------------------------\n");
 			System.out.println("                                               [메뉴로 복귀하려면 ENTER]");
 			String a = s.nextLine();
